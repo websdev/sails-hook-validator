@@ -19,14 +19,17 @@
     "validator": "^3.26.0"
   },
   "devDependencies": {
-    "sails": "^0.11.0",
-    "should": "^4.4.1",
-    "mocha": "^2.3.2"
+    "mocha": "^2.3.2",
+    "sails": "^0.12.14",
+    "should": "^4.4.1"
   },
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/Josebaseba/sails-hook-validator.git"
+    "url": "git://github.com/websdev/sails-hook-validator.git"
+  },
+  "publishConfig": {
+    "registry": "http://private.npm.digital.vistaprint.io/"
   },
   "sails": {
     "isHook": true
@@ -36,9 +39,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Josebaseba/sails-hook-validator/issues"
+    "url": "https://github.com/websdev/sails-hook-validator/issues"
   },
-  "homepage": "https://github.com/Josebaseba/sails-hook-validator",
+  "homepage": "https://github.com/websdev/sails-hook-validator",
   "scripts": {
     "test": "mocha"
   }
