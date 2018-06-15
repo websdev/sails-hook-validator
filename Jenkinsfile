@@ -21,7 +21,7 @@ podTemplate(
     ]
 )
 {
-  node('digital-icons-pod'){
+  node('sails-hook-validator-pod'){
     def varSCM = checkout scm
     properties([pipelineTriggers([pollSCM('* */2 * * *')])])
 
